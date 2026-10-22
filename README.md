@@ -74,6 +74,8 @@ The full details, including the two app-wide ChatGPT settings the app looks afte
 
 **The Dock shows one ChatGPT icon per copy, all alike.** Tell windows apart by the account in each one, or bring one forward from this app or its menu bar menu. Clicking ChatGPT's own Dock icon, or opening ChatGPT from Spotlight, brings forward whichever copy macOS picks: to start the main ChatGPT while accounts are open, use **Open** on its row.
 
+**Every window shares ChatGPT's macOS permissions.** Every copy is the same `ChatGPT.app`, and macOS keeps privacy permissions per app, so **System Settings → Privacy & Security** lists ChatGPT once, not once per account. Whatever you allow there (Desktop or other folders, Full Disk Access, Screen Recording, Accessibility, microphone) applies to every account's window, and a "Don't Allow" applies to all of them too. After changing a permission, close and open an account's window so it picks the change up.
+
 **Only the main ChatGPT checks for updates.** The copies run the same `ChatGPT.app`. When ChatGPT updates itself, close the accounts' windows (**Close All**) and open them again afterwards (**Open All**).
 
 **Sign in to one new account at a time.** ChatGPT's sign-in waits for the browser on a local port that every copy uses, so finish one window's sign-in before starting the next.
