@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430" font-family="'Be Vietnam Pro', -apple-system, 'Helvetica Neue', Arial, sans-serif">
+  <!-- How ChatGPT Multi-Accounts works: the main ChatGPT stays as it is; each extra account runs
+       in its own copy of ChatGPT on its own folders; all of them at the same time. -->
+  <rect width="960" height="430" rx="18" fill="#F6FAF8"/>
+
+  <!-- The app -->
+  <rect x="330" y="22" width="300" height="58" rx="14" fill="#0E8C6B"/>
+  <text x="480" y="49" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF">ChatGPT Multi-Accounts</text>
+  <text x="480" y="69" text-anchor="middle" font-size="12" fill="#D6F5EA">opens, shows and closes the copies</text>
+
+  <!-- Arrows -->
+  <g fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M480 100 H175 V128" stroke="#9AA9A3" stroke-dasharray="6 6"/>
+    <path d="M480 80 V128 M480 100 H785 V128" stroke="#0E8C6B"/>
+  </g>
+  <path d="M175 135 l-7 -10 h14 z" fill="#9AA9A3"/>
+  <path d="M480 135 l-7 -10 h14 z M785 135 l-7 -10 h14 z" fill="#0E8C6B"/>
+  <text x="188" y="122" font-size="11.5" fill="#6B7A74">only reads it, never quits it</text>
+  <text x="493" y="122" font-size="11.5" fill="#0E8C6B">starts a copy on each account's own folders</text>
+
+  <!-- Three ChatGPT windows, all running -->
+  <g>
+    <rect x="30" y="140" width="290" height="220" rx="16" fill="#FFFFFF" stroke="#7FB5F0" stroke-width="2"/>
+    <circle cx="54" cy="162" r="5" fill="#F25F58"/><circle cx="70" cy="162" r="5" fill="#F7BE38"/><circle cx="86" cy="162" r="5" fill="#57C43F"/>
+    <circle cx="64" cy="204" r="20" fill="#D9805B"/>
+    <text x="64" y="210" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">J</text>
+    <text x="96" y="200" font-size="15" font-weight="700" fill="#1D2A26">Main ChatGPT</text>
+    <text x="96" y="219" font-size="12" fill="#5C6B65">jamie@example.com</text>
+    <text x="50" y="256" font-size="11" font-weight="700" fill="#6B7A74" letter-spacing="0.5">ITS FOLDERS, NEVER CHANGED</text>
+    <text x="50" y="278" font-size="12" fill="#1D2A26" font-family="Menlo, monospace">~/.codex</text>
+    <text x="50" y="298" font-size="12" fill="#1D2A26" font-family="Menlo, monospace">~/Library/…/Codex</text>
+    <rect x="50" y="318" width="82" height="24" rx="12" fill="#E3F6EC"/>
+    <circle cx="64" cy="330" r="4" fill="#2FA866"/>
+    <text x="74" y="334" font-size="12" font-weight="700" fill="#2FA866">Running</text>
+  </g>
+  <g>
+    <rect x="335" y="140" width="290" height="220" rx="16" fill="#FFFFFF" stroke="#8FD6B4" stroke-width="2"/>
+    <circle cx="359" cy="162" r="5" fill="#F25F58"/><circle cx="375" cy="162" r="5" fill="#F7BE38"/><circle cx="391" cy="162" r="5" fill="#57C43F"/>
+    <circle cx="369" cy="204" r="20" fill="#B44AD8"/>
+    <text x="369" y="210" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">W</text>
+    <text x="401" y="200" font-size="15" font-weight="700" fill="#1D2A26">Work</text>
+    <text x="401" y="219" font-size="12" fill="#5C6B65">jamie.ng@northwind.example</text>
+    <text x="355" y="256" font-size="11" font-weight="700" fill="#6B7A74" letter-spacing="0.5">ITS OWN FOLDERS</text>
+    <text x="355" y="278" font-size="12" fill="#1D2A26" font-family="Menlo, monospace">…/k3f9q2/codex</text>
+    <text x="355" y="298" font-size="12" fill="#1D2A26" font-family="Menlo, monospace">…/k3f9q2/data</text>
+    <rect x="355" y="318" width="82" height="24" rx="12" fill="#E3F6EC"/>
+    <circle cx="369" cy="330" r="4" fill="#2FA866"/>
+    <text x="379" y="334" font-size="12" font-weight="700" fill="#2FA866">Running</text>
+  </g>
+  <g>
+    <rect x="640" y="140" width="290" height="220" rx="16" fill="#FFFFFF" stroke="#8FD6B4" stroke-width="2"/>
+    <circle cx="664" cy="162" r="5" fill="#F25F58"/><circle cx="680" cy="162" r="5" fill="#F7BE38"/><circle cx="696" cy="162" r="5" fill="#57C43F"/>
+    <circle cx="674" cy="204" r="20" fill="#3B82F6"/>
+    <text x="674" y="210" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">C</text>
+    <text x="706" y="200" font-size="15" font-weight="700" fill="#1D2A26">Client</text>
+    <text x="706" y="219" font-size="12" fill="#5C6B65">jamie@acmestudio.example</text>
+    <text x="660" y="256" font-size="11" font-weight="700" fill="#6B7A74" letter-spacing="0.5">ITS OWN FOLDERS</text>
+    <text x="660" y="278" font-size="12" fill="#1D2A26" font-family="Menlo, monospace">…/p7h2mw/codex</text>
+    <text x="660" y="298" font-size="12" fill="#1D2A26" font-family="Menlo, monospace">…/p7h2mw/data</text>
+    <rect x="660" y="318" width="82" height="24" rx="12" fill="#E3F6EC"/>
+    <circle cx="674" cy="330" r="4" fill="#2FA866"/>
+    <text x="684" y="334" font-size="12" font-weight="700" fill="#2FA866">Running</text>
+  </g>
+
+  <text x="480" y="396" text-anchor="middle" font-size="14" font-weight="600" fill="#1D2A26">All at the same time, each signed in on its own. Nothing is swapped, copied or signed out.</text>
+  <text x="480" y="416" text-anchor="middle" font-size="12" fill="#6B7A74">codex = sign-in, chats, settings (CODEX_HOME) · data = window data (--user-data-dir) · … = ~/.chatgpt-multi-accounts</text>
+</svg>
