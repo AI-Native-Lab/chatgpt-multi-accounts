@@ -14,6 +14,8 @@ Each account gets its own ChatGPT window, signed in on its own, running right ne
 - **ChatGPT Multi-Accounts.app**: a window, a Dock icon and a menu bar item.
 - **`chatgpt-multi`**: the same thing on the command line.
 
+**Beta.** Version 0.x is early software: it may change between versions, and a ChatGPT update can stop it working until a new version catches up.
+
 > [!IMPORTANT]
 > **Not affiliated with OpenAI.** ChatGPT Multi-Accounts is an independent, unofficial project. It is not made, endorsed or supported by OpenAI. “ChatGPT” is OpenAI's trademark and is named here only to say which app this tool works with. Use each of your accounts in line with OpenAI's terms. For help with ChatGPT itself, contact OpenAI, not this project.
 
@@ -102,9 +104,7 @@ It builds the app and the command, installs `~/Applications/ChatGPT Multi-Accoun
 
 ### From a release
 
-When a release is published (`macos/scripts/release.sh` packs one):
-
-1. Download **ChatGPT-Multi-Accounts-…-macOS.zip** from the release.
+1. Download **ChatGPT-Multi-Accounts-…-macOS.zip** from the [latest release](https://github.com/AI-Native-Lab/chatgpt-multi-accounts/releases/latest) (`chatgpt-multi-…-macOS.zip` there is the command on its own).
 2. Open the zip and drag **ChatGPT Multi-Accounts.app** into **Applications**.
 3. Open it. The first time, macOS shows a security warning: see [First open](#first-open).
 

@@ -30,7 +30,7 @@ open -n "build/ChatGPT Multi-Accounts.app" --args --demo   # try it with synthet
 
 1. Raise `VERSION` and `BUILD` at the top of `scripts/build.sh`.
 2. Run `scripts/release.sh`.
-3. Commit, push, and publish the files: `gh release create v<version> build/release/* --title "ChatGPT Multi-Accounts <version>" --notes-file <notes>`.
+3. Commit, push, and publish the files: `gh release create v<version> build/release/* --title "ChatGPT Multi-Accounts <version> (beta)" --notes-file <notes>`. Don't mark it as a pre-release: GitHub's `releases/latest` link, which the README and the AI Native Lab shop point at, skips pre-releases.
 
 ## Source
 

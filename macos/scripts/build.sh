@@ -4,7 +4,7 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-VERSION="1.0.0"   # shown in Finder; raise it, and BUILD, for every release
+VERSION="0.1.0"   # shown in Finder; raise it, and BUILD, for every release. 0.x while in beta
 BUILD="1"
 
 # A stale SDKROOT (Command Line Tools removed after Xcode was installed) breaks swift build.
