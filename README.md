@@ -9,10 +9,12 @@ Each account gets its own ChatGPT window, signed in on its own, running right ne
 <p align="center"><img src="docs/screenshots/main-window.png" width="780" alt="The ChatGPT Multi-Accounts window: the main ChatGPT and two more accounts open at the same time, a fourth account closed"></p>
 <p align="center"><sub>Synthetic accounts from the app's demo.</sub></p>
 
-**macOS only** (macOS 13 or later, Apple silicon and Intel), for the ChatGPT desktop app that includes Codex (version 26.1013 or later, `com.openai.codex`). It comes two ways, built from the same code:
+**macOS** (macOS 13 or later, Apple silicon and Intel), for the ChatGPT desktop app that includes Codex (version 26.1013 or later, `com.openai.codex`). It comes two ways, built from the same code:
 
 - **ChatGPT Multi-Accounts.app**: a window, a Dock icon and a menu bar item.
 - **`chatgpt-multi`**: the same thing on the command line.
+
+**Windows** (10 and 11, 64-bit; beta): **ChatGPTMultiAccounts.exe**, a window and a notification-area icon, with the same rules, for the ChatGPT desktop app from the Microsoft Store. See [windows/README.md](windows/README.md).
 
 **Beta.** Version 0.x is early software: it may change between versions, and a ChatGPT update can stop it working until a new version catches up.
 
